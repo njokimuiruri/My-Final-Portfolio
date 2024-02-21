@@ -1,15 +1,38 @@
+
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+}
+:root{
+    --clr-primary-1:hsl(205, 86%, 17%);
+    --clr-primary-2:hsl(205, 77%, 27%);
+    --clr-primary-3:hsl(205, 72%, 37%);
+    --clr-primary-4:hsl(205, 63%, 48%);
+     /*addition of secondary colors*/
+     --clr-primary-5:hsl(205, 89%, 70%);
+     --clr-primary-6:hsl(205, 90%, 76%);
+     --clr-primary-7:hsl(205, 86%, 81%);
+     --clr-primary-8:hsl(205, 90%,88% );
+     --clr-primary-9:hsl(205, 100%, 96%);
+     --clr-white:#fff; 
+     --clr-black:#222;
+     --radius:0.25rem;
+     --spacing:0.1rem;
+
+}
+body{
+    background-color: var(--clr-primary-5);
 }
 .navigationlinks a{
     text-decoration: none;
-   
     font-size: 32px;
 }
 .navigationlinks a:hover{
-    border-bottom: 2px solid blue;
-    color: black;
+    border-bottom: 3px solid var(--clr-primary-1);
+    color: var(--clr-black);
 }
