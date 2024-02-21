@@ -4,3 +4,8 @@
     box-sizing: border-box;
     
 }
+.navigationlinks a{
+    text-decoration: none;
+   
+    font-size: 32px;
+}
