@@ -9,3 +9,7 @@
    
     font-size: 32px;
 }
+.navigationlinks a:hover{
+    border-bottom: 2px solid blue;
+    color: black;
+}
